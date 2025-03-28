@@ -1,0 +1,44 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #0f0f0f;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #e50914;
+    padding: 15px;
+    text-align: center;
+}
+
+.search-box input {
+    width: 80%;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+.video-container {
+    margin: 15px;
+    background: #222;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.drama-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+}
+
+.drama-card {
+    background: #333;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.drama-card img {
+    width: 100%;
+}
